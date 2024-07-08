@@ -6,4 +6,4 @@
 *.log
 
 # Ignore target directory
-/target/
+**/target/
