@@ -1,2 +1,6 @@
-# Ignore all bin directories in the repository
-**/bin/
+# Ignore all .class files
+*.class
+
+# Other files and directories to ignore
+.DS_Store
+*.log
