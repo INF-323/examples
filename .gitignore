@@ -4,3 +4,6 @@
 # Other files and directories to ignore
 .DS_Store
 *.log
+
+# Ignore target directory
+/target/
