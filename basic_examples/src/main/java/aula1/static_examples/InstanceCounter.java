@@ -15,6 +15,8 @@ public class InstanceCounter {
      * Construtor
      */
     InstanceCounter() {
+        super();
+    }
         InstanceCounter.addInstance();
     }
 

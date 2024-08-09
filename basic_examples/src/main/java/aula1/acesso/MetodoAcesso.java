@@ -17,6 +17,10 @@ class ContaCor {
     return saldoAtual;
   }
 
+  void setSaldo(float val) {  // leitura do saldo 
+    saldoAtual = val;
+  }
+
 }
 
 public class MetodoAcesso { 

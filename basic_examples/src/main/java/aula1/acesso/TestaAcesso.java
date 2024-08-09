@@ -4,6 +4,14 @@ import java.util.*;
 
 class ContaCor2 {
   private float saldoAtual;  // atributo a ser oferecido acesso
+
+  public float saldoAtual() {  // método para acessar saldoAtual
+    return saldoAtual;
+  }
+
+  public void deposito(float quantia) {  // método para depositar
+    saldoAtual += quantia;
+  }
 }
 
 public class TestaAcesso { 
@@ -13,7 +21,7 @@ public class TestaAcesso {
          
         conta.saldoAtual = 10.0f;         
 
-        System.out.println("Saldo : " + conta.saldoAtual); 
+        System.out.println("Saldo : " + conta.saldoAtual()); 
 
     }
 } 
