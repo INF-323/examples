@@ -6,12 +6,10 @@ public class DrinkItem extends Item {
 
 	public DrinkItem(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	public DrinkItem(String name, int quantity) {
 		super(name, quantity);
-		// TODO Auto-generated constructor stub
 	}
 
 	public DrinkItem(String name, int quantity, boolean alcohol) {

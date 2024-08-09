@@ -3,7 +3,7 @@ package first_level;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		inStockItems<FoodItem> foodList = new inStockItems<>("Comida");
 		inStockItems<DrinkItem> drinkList = new inStockItems<>("Bebidas");
 		
