@@ -22,16 +22,16 @@ public class Main {
 		// 1. Rode o código. Você identifica algo estranho?
 		// 2. Descomente a parte abaixo. Rode novamente. O que aconteceu?
 
-		int numAlc = 0;
-		DrinkItem it;
+		// int numAlc = 0;
+		// DrinkItem it;
 
-		for (int i = 0; i < drinkList.getSize(); i++) {
-			it = (DrinkItem) drinkList.getItem(i);
-			if (it.isAlcohol())
-				numAlc++;
-		}
+		// for (int i = 0; i < drinkList.getSize(); i++) {
+		// 	it = (DrinkItem) drinkList.getItem(i);
+		// 	if (it.isAlcohol())
+		// 		numAlc++;
+		// }
 
-		System.out.println("Temos " + numAlc + " bebidas alcoólicas cadastradas");
+		// System.out.println("Temos " + numAlc + " bebidas alcoólicas cadastradas");
 
 	}
 
