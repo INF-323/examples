@@ -7,8 +7,6 @@ Ele faz parte da Java Foundation Classes (JFC) e fornece um conjunto de componen
 */
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class MyWindow {
     public static void main(String[] args) {
