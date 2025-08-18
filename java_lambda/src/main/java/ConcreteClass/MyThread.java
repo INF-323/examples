@@ -12,7 +12,7 @@ class MyCode implements Runnable{
 
 	@Override
 	public void run() {
-		System.out.println("Mamãe ... olha eu aqui na Unicamp!");
+		System.out.println("Hello there! This is the run() method!");
 	}
 	
 	

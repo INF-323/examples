@@ -7,7 +7,7 @@ public class MyThread {
 		
 		new Thread (new Runnable()  {
 			public void run() {
-				System.out.println("Mamãe ... olha eu aqui na Unicamp!");
+				System.out.println("Hello from the anonymous class!");
 			}
 		}).start();
 	}

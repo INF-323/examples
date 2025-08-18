@@ -7,7 +7,7 @@ public class MyThread {
 		
 		new  Thread (
 				//Lambda Expression: (argument list) -> Body
-				()->System.out.println("Mamãe ... olha eu aqui na Unicamp! E usando Lambda!!!")				
+				()->System.out.println("Hello There! This is from the lambda expression!")				
 				).start();
 	}
 }
