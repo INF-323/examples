@@ -41,6 +41,7 @@ public class Main {
 			.sorted()						//uma stream ordenada pela ordem natural dos elementos
 			.forEach(System.out::println);	//Cada item é impresso no monitor. Retorno nulo. Fim da cadeia.
 		
+		//Imprimindo a coleção original para fins de comparação
 		System.out.println();
 		sparseTable.forEach((String s) -> System.out.println(s));
 	}
